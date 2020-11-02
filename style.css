@@ -1,0 +1,222 @@
+body {
+    font-family: "Josefin Sans";
+  }
+  
+  .big {
+    font-size: 4rem;
+    letter-spacing: 1rem;
+  }
+  
+  .big-text1 {
+    font-weight: 300;
+    color: #CF9898;
+  }
+  
+  .big-text2, .big-text3 {
+    font-weight: 600;
+    color: #413A3A;
+  }
+  
+  p {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #CF9898;
+  }
+  
+  .pink-text {
+    color: #F96262;
+    font-size: 0.8rem;
+    padding-left: 1rem;
+  }
+  
+  .titles {
+    margin-top: 8rem;
+  }
+  
+  .some-text {
+    padding: 2rem 0;
+  }
+  
+  .logo-img {
+    width: 12rem;
+  }
+  
+  .col1 {
+    padding: 4rem 14rem;
+    background-image: url("bg-pattern-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  .titles {
+    line-height: 1.1;
+  }
+  
+  .col2 {
+    background-image: url("hero-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  .two {
+    display: inline-flex;
+    background-color: white;
+    border-radius: 25px;
+    border: 1px solid #EE8D8D;
+    width: 100%;
+    padding-left: 1rem;
+  }
+  
+  .btn2 {
+    display: inline-flex;
+    justify-content: flex-end;
+    width: 40%;
+  }
+  
+  #email{
+    border: none;
+    width: 60%;
+    opacity: 0.5;
+    background-color: transparent;
+    outline: none;
+    border-radius: 25px;
+  }
+  
+  .errorMsg, .errorIcon {
+    visibility: hidden;
+  }
+  
+  .alert {
+    padding: 0;
+    margin: 8px 8px 0 0;
+  }
+  
+  .hide-error {
+    visibility: visible;
+  }
+  
+  form.error .errorIcon {
+      visibility: visible;
+  }
+  
+  form.error .errorMsg {
+      visibility: visible;
+  }
+  
+  /*
+  .email-box {
+    border-color: #EE8D8D;
+    border-radius: 50px;
+    font-size: 1rem;
+    padding: 0.5rem ;
+    width: 100%;
+  }
+  */
+  .hash {
+    height: 2.8rem;
+    width: 7rem;
+    border-radius: 50px;
+    border: none;
+    background: #F9BEBE;
+    background: linear-gradient(90deg, #F9BEBE 0%, #EE8D8D 100%);
+    -webkit-box-shadow: 0 5px 10px 0 rgba(249, 98, 98, 0.3);
+    -moz-box-shadow: 0 5px 10px 0 rgba(249, 98, 98, 0.3);
+    box-shadow: 0 5px 10px 0 rgba(249, 98, 98, 0.3);
+    position: relative;
+  }
+  
+  .hash:hover {
+    background: rgb(238, 141, 141);
+    background: linear-gradient(90deg, rgba(238, 141, 141, 1) 0%, rgba(249, 190, 190, 1) 100%);
+  }
+  
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    background-color: white;
+    padding: 1rem;
+  }
+  
+  .attribution a {
+    color: #F96262;
+  }
+  
+  .hide {
+    padding: 2rem;
+    margin-top: 2rem;
+    background-image: url("hero-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+    border-radius: 10px;
+  }
+  
+  .footer {
+    margin-top: 1rem;
+    opacity: 0.5;
+  }
+  
+  @media (max-width: 1200px) {
+    body {
+      background: rgb(255, 255, 255);
+      background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(249, 190, 190, 1) 100%);
+      text-align: center;
+    }
+  
+    .container-fluid {
+      background-image: url("bg-pattern-desktop.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 55rem;
+    }
+  
+    .col1 {
+      background: none;
+      padding: 3rem 12rem;
+    }
+  
+    .col2 {
+      display: none;
+    }
+  
+    .titles {
+      margin-top: 3rem;
+    }
+  
+    .hide {
+      display: block;
+      height: 250px;
+    }
+  
+    .footer {
+      margin-top: 4.5rem;
+    }
+  
+    #fill-area {
+      text-align: left;
+    }
+  }
+  
+  @media (max-width: 930px) {
+    .big {
+      font-size: 3rem;
+    }
+  
+    .col1 {
+      background: none;
+      padding: 3rem 8rem;
+    }
+  }
+  
+  @media (max-width: 720px) {
+    .big {
+      font-size: 3rem;
+    }
+  
+    .col1 {
+      background: none;
+      padding: 3rem;
+    }
+  }
